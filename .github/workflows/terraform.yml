@@ -29,4 +29,4 @@ jobs:
       
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
-      run: terraform -v
+      run: export TF_VERSION=0.14.4; terraform -v
